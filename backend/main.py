@@ -23,7 +23,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/api/config")
+# @app.get("/api/config")
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to my FastAPI app!"}
 async def get_config():
     return {
         "models": AVAILABLE_MODELS,
