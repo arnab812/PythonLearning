@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE_URL = 'http://13.127.53.86:8000';
+export const API_BASE_URL = 'http://3.111.34.252:8000';
 
 export const getConfig = async () => {
     try {
