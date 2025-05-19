@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE_URL = 'http://3.111.34.252:8000/api';
+export const API_BASE_URL = 'https://learning-python-with-arnab.duckdns.org/api';
 
 export const getConfig = async () => {
     try {
