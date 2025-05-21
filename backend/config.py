@@ -8,7 +8,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 DEFAULT_MODEL = "gemini-1.5-flash"  # Default model to use if not specified
 
 # Available models
-AVAILABLE_MODELS = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro", "gemini-1.0-pro-vision"]
+AVAILABLE_MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro", "gemini-1.0-pro-vision"]
 
 # Available languages
 AVAILABLE_LANGUAGES = ["English", "Hindi", "Spanish", "French", "German", "Bengali"]
